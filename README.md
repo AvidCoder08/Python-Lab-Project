@@ -2,6 +2,30 @@
 
 ## Run the app
 
+### IMDb-like wxPython UI
+
+This project also includes a desktop UI built with wxPython that looks similar to IMDb for searching and browsing movies using the OMDb API.
+
+1) Install dependencies (wxPython and others):
+
+```
+pip install -r requirements.txt
+```
+
+2) (Optional) Configure your OMDb API key. Create a `.env` file in the project root or set an environment variable:
+
+```
+OMDB_API_KEY=your_api_key_here
+```
+
+If not provided, a demo key is used which may be rate-limited.
+
+3) Run the wx app:
+
+```
+python imdb_wx.py
+```
+
 ### uv
 
 Run as a desktop app:
