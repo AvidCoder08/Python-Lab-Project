@@ -26,7 +26,7 @@ def get_movie_insights(title: str, plot: str) -> str:
     }
 
     prompt = (
-        f"Give a short, fun summary, trivia, and 3 similar movie recommendations for the movie "
+        f"Give a short, fun summary, trivia, and 3 similar movie recommendations for the movie. Don't use any fancy markdown formats"
         f"'{title}'. Here is the plot:\n\n{plot}\n\n"
         f"Format your answer as:\n"
         f"- Short summary\n- Trivia bullets\n- Recommended movies"
